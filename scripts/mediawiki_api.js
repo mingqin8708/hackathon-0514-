@@ -3,7 +3,7 @@
  * Created by mingqin on 16/5/14.
  */
 
-var list = ['seal', 'whale', 'Predation','Wheatstone bridge']
+var list = ['seal', 'whale', 'Predation','Wheatstone bridge','egret','egret','eel']
 var num = getRandomArbitrary(0, list.length)
 var title = list[num]
 var explore = $("#explore");
