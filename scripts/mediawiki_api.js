@@ -26,7 +26,9 @@ explore.click(function() {
             var wikistr = pages[pageid]['revisions'][0]['*']
             var html = wikistr.wiki2html();
             //var html = wiky.process(wikistr)
+            $('body').removeAttr("style")
             $('#msg').html(html)
+
             console.log(r)
         },
         fail: function(r) {
